@@ -1,0 +1,22 @@
+{
+  "name": "extrajarrodwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "exercise1": "mocha -- test/1_secondHighestNumber.test.js",
+    "exercise2": "mocha -- test/2_buildYourOwnFilter.test.js",
+    "example2": "node code_examples/2_first_class_functions_examples.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "mocha": "^10.2.0",
+    "ts-jest": "^29.1.0"
+  }
+}
