@@ -29,3 +29,24 @@ npm run example2
 ```shell
 npm run exercise2
 ```
+
+## Exercise 3
+
+### Concepts
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
+
+### Code Examples
+```shell
+# First example
+npm run example3_1
+# Second example
+npm run example3_2
+```
+
+### Run all tests
+```shell
+npm run exercise3
+```

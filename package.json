@@ -7,7 +7,10 @@
     "test": "mocha",
     "exercise1": "mocha -- test/1_secondHighestNumber.test.js",
     "exercise2": "mocha -- test/2_buildYourOwnFilter.test.js",
-    "example2": "node code_examples/2_first_class_functions_examples.js"
+    "exercise3": "mocha -- test/3_buildYourOwnReverse.test.js",
+    "example2": "node code_examples/2_first_class_functions_examples.js",
+    "example3_1": "node code_examples/3_1_split_examples.js",
+    "example3_2": "node code_examples/3_2_for_loop.js"
   },
   "author": "",
   "license": "ISC",
