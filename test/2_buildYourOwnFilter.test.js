@@ -1,7 +1,10 @@
 const assert = require('assert');
 
+//sort
+//compare
+
 function myOwnFilter(array, fn) {
-    return array
+    return array.filter(fn).sort()
 }
 
 
