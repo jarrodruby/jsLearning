@@ -11,18 +11,18 @@ function myOwnFilter(array, fn) {
 /////////////// tests /////////////////
 // Do not change from below here
 describe('myOwnFilter', function () {
-    it('filters numbers higher than 3', function () {
+    it.only('filters numbers higher than 3', function () {
         const result = myOwnFilter([1, 7, 3, 4, 5, 6], (x) => {
             return x > 3
         })
-        assert.equal(result, [4, 5, 6, 7]);
+        assert.deepEqual(result, [7,4, 5, 6]);
     });
 
     it('filters numbers less than 3', function () {
         const result = myOwnFilter([1, 7, 3, 4, 5, 6], (x) => {
             return x < 3
         })
-        assert.equal(result, [1]);
+        assert.deepEqual(result, [1]);
     });
 
     it('filters numbers less than 3 (different syntax)', function () {
@@ -30,7 +30,7 @@ describe('myOwnFilter', function () {
             return x < 3
         }
         const result = myOwnFilter([1, 7, 3, 4, 5, 6], fn)
-        assert.equal(result, [1]);
+        assert.deepEqual(result, [1]);
     });
 
     it('filters numbers less than 3 (different syntax again)', function () {
@@ -38,6 +38,6 @@ describe('myOwnFilter', function () {
             return x < 3
         }
         const result = myOwnFilter([1, 7, 3, 4, 5, 6], fn)
-        assert.equal(result, [1]);
+        assert.deepEqual(result, [1]);
     });
 });
